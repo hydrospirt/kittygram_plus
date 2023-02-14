@@ -1,7 +1,7 @@
 from rest_framework import viewsets
 
-from .models import Cat
-from .serializers import CatSerializer
+from cats.models import Cat
+from cats.serializers import CatSerializer
 
 
 class CatViewSet(viewsets.ModelViewSet):

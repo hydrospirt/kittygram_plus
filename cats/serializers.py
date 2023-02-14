@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from .models import Cat
+from cats.models import Cat
 
 
 class CatSerializer(serializers.ModelSerializer):
