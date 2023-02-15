@@ -16,7 +16,7 @@ class CatSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Cat
-        fields = ('id', 'name', 'color', 'birth_year', 'owner', 'achievements ')
+        fields = ('id', 'name', 'color', 'birth_year', 'owner', 'achievements')
 
 
 class OwnerSerializer(serializers.ModelSerializer):
